@@ -21,7 +21,6 @@ public class ColorJPanel extends JPanel
       // set new drawing color using floats
       g.setColor(new Color(0.50f, 0.75f, 0.0f));
       g.fillRect(15, 50, 100, 20);
-      g.drawString("Current RGB: " + g.getColor(), 130, 65);
 
       // set new drawing color using static Color objects
       g.setColor(Color.BLUE);
